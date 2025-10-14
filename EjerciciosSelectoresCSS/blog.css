@@ -1,0 +1,26 @@
+/* Selector de atributo */
+a[href*="twitter.com"] {
+  color: #1DA1F2;
+}
+
+/* Pseudoclases */
+a:hover {
+  color: #e91e63;
+}
+
+h1 + p {
+  font-size: 1.1em;
+}
+
+/* Filas pares en lista de redes sociales */
+ul li:nth-child(even) {
+  background-color:aquamarine;
+}
+
+/* Combinación de selectores */
+.palabra-clave {
+  color: #d84315;
+  background-color: #ffebee;
+  padding: 2px 5px;
+  border-radius: 3px;
+}

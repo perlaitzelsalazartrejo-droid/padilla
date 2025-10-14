@@ -1,0 +1,38 @@
+/* Estilo general de las tarjetas */
+.tarjeta {
+  border: 1px solid #ccc;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  width: 250px;
+  display: inline-block;
+  margin: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+/* Imagen dentro de la tarjeta */
+.tarjeta img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Nombre dentro de la tarjeta */
+.tarjeta h3 {
+  color: #2c3e50;
+}
+
+/* Enlace tipo botón */
+.tarjeta a {
+  text-decoration: none;
+  background-color: #51a2d8;
+  color: rgb(245, 245, 245);
+  padding: 8px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.tarjeta a:hover {
+  background-color: #e263a9;
+}

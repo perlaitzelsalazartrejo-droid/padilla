@@ -1,0 +1,30 @@
+
+h2 {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+  
+}
+#titulo-receta {
+  background-color: #ffcc80;
+  color: #4e342e;
+  text-align: center;
+  padding: 10px;
+}
+
+/* modificar comando*/
+.ingrediente-principal {
+  font-weight: bold;
+}
+.paso-importante {
+  background-color: #fff3e0;
+}
+
+
+div.ingredientes li {
+  color: #2e7d32;
+}
+
+div.pasos li {
+  color: #6d4c41;
+}

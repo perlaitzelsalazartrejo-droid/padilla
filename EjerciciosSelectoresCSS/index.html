@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios de Selectores CSS</title>
+  <style>
+    /* Estilos generales */
+    body {
+      margin: 0;
+      font-family: "Poppins", Arial, sans-serif;
+      background: linear-gradient(135deg, #e3f2fd, #e8f5e9);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+      font-family: "Lucida Handwriting";
+    }
+
+    /* Contenedor de enlaces */
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      max-width: 900px;
+    }
+
+    /* Tarjetas con enlaces */
+    .tarjeta {
+      background-color:rgb(195, 190, 224);
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.3s;
+      width: 250px;
+      text-align: center;
+    }
+
+    .tarjeta:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+
+    .tarjeta a {
+      text-decoration: none;
+      display: block;
+      color: #ffffff;
+      background-color: #88b889;
+      padding: 10px 0;
+      border-radius: 6px;
+      margin-top: 10px;
+      font-weight: 500;
+      transition: background-color 0.3s;
+    }
+
+    .tarjeta a:hover {
+      background-color: #0c5010;
+    }
+
+    /* Pie de página opcional */
+    footer {
+      margin-top: 50px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Ejercicios de Selectores CSS</h1>
+
+  <div class="contenedor">
+    <div class="tarjeta">
+      <h2>Ejercicio 1</h2>
+      <p>Página de Recetas</p>
+      <a href="receta.html">Ver ejercicio</a>
+    </div>
+
+    <div class="tarjeta">
+      <h2>Ejercicio 2</h2>
+      <p>Galería de Perfiles</p>
+      <a href="perfiles.html">Ver ejercicio</a>
+    </div>
+
+    <div class="tarjeta">
+      <h2>Ejercicio 3</h2>
+      <p>Artículo de Blog </p>
+      <a href="blog.html">Ver ejercicio</a>
+    </div>
+  </div>
+
+
+</body>
+</html>
